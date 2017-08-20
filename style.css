@@ -1,17 +1,13 @@
-
-#wrapper{
- height: 980px;
- width: 934px;
- background-color:rgb(249, 249, 249);
-
- 
+#wrapper {
+    height: 980px;
+    width: 934px;
+    background-color: rgb(249, 249, 249);
 }
 
-#navbar{
+#navbar {
     height: 60px;
     display: block;
-    background-color:rgb(249,249,249);
-
+    background-color: rgb(249, 249, 249);
 }
 
 .center {
@@ -19,130 +15,147 @@
     width: 20%;
     padding: 10px;
 }
-#content{
+
+#content {
     height: 850px;
     width: 934px;
     background-color: rgb(111, 89, 100);
-
+    /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient( rgb(111, 89, 100), #200f14);
+    /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(rgb(111, 89, 100), #200f14);
+    /* For Opera 11.6 to 12.0 */
+    /* background: -moz-radial-gradient(#200f14, rgb(111, 89, 100)); */
+    /* For Firefox 3.6 to 15 */
+    background: radial-gradient(rgb(111, 89, 100), #200f14);
+    /* Standard syntax */
 }
 
-h1{
+h1 {
     font-family: "Comic Sans MS", cursive, sans-serif;
     color: black;
     display: inline-block;
 }
 
-#textNavRight{
+#textNavRight {
     color: black;
     font-family: "Arial Black", Gadget, sans-serif;
     display: inline-block;
     padding-left: 300px;
-    
     vertical-align: top;
-  
 }
 
-#aboutMe{
+#aboutMe {
     height: 260px;
     width: 460px;
     background-color: rgb(240, 234, 240);
     display: inline-block;
     vertical-align: top;
     margin: 17px;
-    
 }
 
-h3{
+h3 {
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     padding: 10px;
 }
 
-.genMargin{
+.genMargin {
     padding: 10px;
 }
 
-.contentTitle{
+.contentTitle {
     height: 40px;
     width: 440px;
-    background-color: rgb(136,135,148);
+    background-color: rgb(136, 135, 148);
+    background: -webkit-linear-gradient(#abaab0, #878593, #abaab0);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#abaab0, #878593, #abaab0);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#abaab0, #878593, #abaab0);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#abaab0, #878593, #abaab0);
+    /* Standard syntax */
     display: inline-block;
     color: white;
     padding-bottom: 0px;
-  
 }
 
-#image{
+#image {
     width: 390px;
     height: 260px;
     padding: 3px;
     /* background-color:rgb(249,249,249); */
     margin: 17px 12px 24px 20px;
-
 }
 
-.box{
+.box {
     width: 274px;
     height: 520px;
     margin-left: 12px;
-    background-color:rgb(249,249,249);
+    background-color: rgb(249, 249, 249);
     display: inline-block;
     vertical-align: top;
 }
 
-#first{
+#first {
     margin-left: 25px;
 }
 
-.between{
+.between {
     margin: 0px 14px;
 }
 
-.boxTop{
+.boxTop {
     width: 274px;
     height: 40px;
-    background-color: rgb(136,135,148);
+    background-color: rgb(136, 135, 148);
+    background: -webkit-linear-gradient(#abaab0, #878593, #abaab0);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#abaab0, #878593, #abaab0);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#abaab0, #878593, #abaab0);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#abaab0, #878593, #abaab0);
     display: inline-block;
     color: white;
-
-  
 }
 
-.boxContents{
+.boxContents {
     height: 152px;
     width: 274px;
-    background-color: rgb(249,247,249);
+    background-color: rgb(249, 247, 249);
     display: inline-block;
 }
 
-.boxBottom{
+.boxBottom {
     width: 272px;
     height: 152x;
     display: inline-block;
-  
 }
 
-.words{
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 13px;
-     padding-left: 5px;
+.words {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-left: 5px;
 }
 
-.words1{
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 15px;
-     padding-left: 5px;
-     color: black;
+.words1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+    color: black;
 }
 
-.ib{
+.ib {
     display: inline-block;
     background-color: white;
     margin: 7px 5px 5px 5px;
 }
 
 .button {
-    background-color: rgb(64,125,97); /* Green */
+    background-color: rgb(64, 125, 97);
+    /* Green */
     border: black solid;
     color: white;
     text-align: center;
@@ -155,9 +168,7 @@ h3{
 .center2 {
     margin: auto;
     width: 30%;
-  
 }
-
 
 .center3 {
     margin: auto;
